@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #FFEECA;
+}
+
+nav{
+    width: 86%;
+    height: 200px;
+    background-color: #BEB18F;
+    margin-left: 7%;
+    border-radius: 0 0 60px 60px;
+    position: fixed;
+}
+nav a:link{
+    color: black;
+}
+nav a:hover{
+    color: #ff6000;
+    transition: color 0.5s;
+}
+a:visited{
+    color: unset;
+}
+a{
+    text-decoration: none;
+}
+nav h2{
+    font-family: Arial, sans-serif;
+    float: inline-start;
+    margin: 3.5% 1.5% 0 1.5%;
+    font-size: 370%;
+}
+#txtinicio{
+    margin-left: 9%;
+}
+nav img{
+    width: 180px;
+    height: auto;
+    float: inline-start;
+    margin-top: 0.5%;
+}
+#btngradient{
+    background: linear-gradient(90deg, orange, rgb(255, 140, 0));
+    font-size: 300%;
+    padding: 0.5%;
+    border-radius: 39px;
+    transition: ease 1s all;
+}
+#btngradient:hover{
+    background: linear-gradient(90deg, rgb(255, 180, 40), rgb(255, 158, 40));
+    box-shadow: 0 10px 10px black;
+    color: black;
+}
+
+/*apenas para ter um local para voltarem no topo da página*/
+#inicio{
+    float: left;
+    padding-left: 50%;
+}
+
+h1{
+    padding-top: 15%;
+    text-align: center;
+    font-size: 500%;
+}
+
+#sobrenos{
+    padding-top: 3%;
+    text-align: center;
+    margin: 0 15%;
+}
+#sobrenos h2{
+    font-size: 300%;
+    margin-bottom: 80px;
+}
+p{
+    font-size: 170%;
+    text-align: justify;
+    padding: 0.5% 0;
+}
+
+#imgpessoas{
+    width: 70%;
+    height: auto;
+    margin: 5% 15%;
+    border-radius: 10px;
+}
+
+#explicacao{
+    margin: 0 15%;
+}
+#explicacao h2{
+    font-size: 250%;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.linkexplicar{
+    color: #ff6000;
+    font-weight: bold;
+}
+.linkexplicar:hover{
+    color: #e25700;
+    text-decoration: underline;
+    transition: 0.5s color;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+#produtos{
+    width: 70%;
+    margin: 4% 15% 0 15%;
+    text-align: center;
+}
+#produtos img{
+    width: 30%;
+    height: auto;
+    padding-top: 5%;
+}
+#prod3 img{
+    width: 50%;
+}
+#produtos p, #produtos ul{
+    max-width:80%;
+    font-size: 150%;
+    padding: 0 10% 10% 10%;
+    text-align: justify;
+}
+#produtos h3{
+    padding: 5%;
+    font-size: 200%;
+}
+
+#prod1, #prod2, #prod3{
+    margin: 1%;
+    margin-bottom: 6%;
+    float: inline-start;
+    width: 31%;
+    background-color: #BEB18F;
+    transition: ease 1s all;
+    height: fit-content;
+}
+#prod1:hover, #prod2:hover, #prod3:hover{
+    border: 2px solid black;
+    color: white;
+    transition-delay: 0.1s;
+    background-color: rgb(0, 30, 255);
+}
+
+#forms{
+    margin: 0 17%;
+    margin-bottom: 0;
+    background-color: black;
+    background-image: url(../#);
+    color: white;
+    text-align: center;
+    background-image: url(../img/fundoform.png);
+    background-size: cover;
+    border-radius: 10px;
+    clear: both;
+}
+#forms h2{
+    font-size: 400%;
+}
+
+form label{
+    font-size: 200%;
+    font-weight: bold;
+}
+form input{
+    background-color: #BEB18F;
+    border: 1px solid black;
+    margin-left: 20px;
+    height: 35px;
+    border-radius: 3px;
+}
+#mail{
+    margin-left: 5px;
+}
+textarea{
+    margin-left: 20px;
+    background-color: #BEB18F;
+    color: white;
+    border-radius: 3px;
+    font-size: 55%;
+    border: 1px solid black;
+}
+input[type="submit"], input[type="reset"]{
+    background-color: #BEB18F;
+    color: black;
+    font-size: 130%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #BEB18F;
+    height: 200px;
+}
+footer section{
+    float: inline-start;
+    margin: 2.2% 0 1% 4%;
+}
+footer section img{
+    width: 43px;
+    height: 43px;
+    margin: 0.5%;
+}
+footer section p{
+    font-size: 300%;
+    margin-bottom: 3%;
+}
+footer img{
+    width: 180px;
+    height: auto;
+    float: inline-start;
+    margin: 0.5% 0 0 30%;
+}
